@@ -1,0 +1,28 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+//Materialize
+@import '~materialize-css/dist/css/materialize.min';
+//generales
+html{
+	font-family: 'Montserrat', sans-serif;
+}
+//Tipografias
+.bold{
+	font-weight: 800;
+}
+//Fondos
+.hero{
+	background:url('/img/hero.jpg') no-repeat center center;
+	background-size: cover;
+	background-attachment: cover;
+	height: 60vh;
+	width: 100vw;
+}
+//Helpers
+.logo{
+	max-width: 100px;
+}
+.valign-wrapper{
+	height: 50vh;
+}
